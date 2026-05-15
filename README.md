@@ -35,11 +35,7 @@ Developed by UMERON Technologies.
 
 ### Install dependencies
 ```bash
-flutter pub get
 
-Commands:
-
-```powershell
 flutter clean
 flutter pub get
 flutter doctor
