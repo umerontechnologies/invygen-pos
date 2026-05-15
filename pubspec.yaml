@@ -1,0 +1,42 @@
+name: invygen
+description: Offline POS, inventory, billing, orders, supplier management, receipts, reports and backup app by UMERON Technologies.
+publish_to: 'none'
+version: 1.0.1+2
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  sqflite: ^2.4.2
+  path: ^1.9.0
+  intl: ^0.19.0
+  shared_preferences: ^2.5.3
+  uuid: ^4.5.1
+  pdf: ^3.11.3
+  printing: ^5.14.2
+  share_plus: ^10.1.4
+  path_provider: 2.1.4
+  file_picker: ^8.3.7
+  url_launcher: ^6.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/invygen_icon.png
+    - assets/icons/invygen_logo.svg
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: assets/icons/invygen_icon.png
+  adaptive_icon_background: '#0F172A'
+  adaptive_icon_foreground: assets/icons/invygen_icon.png
